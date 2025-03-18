@@ -1,0 +1,3 @@
+#include "resource.h"
+
+TEST_RESOURCE_ID RCDATA { "hello world\n" }
