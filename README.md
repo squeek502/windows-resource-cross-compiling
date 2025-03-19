@@ -11,7 +11,7 @@ Note: This needs a `resinator` built with commit [`48aef18`](https://github.com/
 If the linker you're using can convert `.res` files to COFF object files:
 - `WINDRES=resinator`
 
-If the linker you're using can not convert `.res` files to COFF object files:
+If the linker you're using cannot convert `.res` files to COFF object files:
 - `WINDRES="resinator windres"`
 - `WINDRES="resinator /:output-format coff"`
 
@@ -22,7 +22,7 @@ Example cross-files are provided in the `meson-cross` directory:
 If the linker you're using can convert `.res` files to COFF object files:
 - `--cross-file meson-cross/rc.txt`
 
-If the linker you're using can not convert `.res` files to COFF object files:
+If the linker you're using cannot convert `.res` files to COFF object files:
 - `--cross-file meson-cross/windres.txt`
 - `--cross-file meson-cross/coff.txt`
 
