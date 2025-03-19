@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
     return 1;
   }
   DWORD size = SizeofResource(NULL, handle);
-  printf("%.*s", size, (char*)data);
+  printf("%.*s", (int)size, (char*)data);
   return 0;
 #else
   printf("not windows\n");
