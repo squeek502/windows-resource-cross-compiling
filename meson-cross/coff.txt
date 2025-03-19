@@ -1,0 +1,9 @@
+[binaries]
+c = ['zig', 'cc', '--target=x86_64-windows-gnu']
+windres = ['resinator', '/:output-format', 'coff']
+
+[target_machine]
+system = 'windows'
+cpu_family = 'x86_64'
+cpu = 'x86_64'
+endian = 'little'
